@@ -7,6 +7,7 @@ import React, {
   Dimensions,
   ListView,
   ScrollView,
+  ActivityIndicatorIOS,
   InteractionManager,
   ProgressBarAndroid,
   Platform,
@@ -130,7 +131,9 @@ class ArticleList extends React.Component {
     if (1) {
       if (Platform.OS === 'ios') {
         return (
-          <View style={styles.progress}></View>
+          <View style={styles.progress}>
+            <ActivityIndicatorIOS/>
+          </View>
         );
       }else {
         return (
