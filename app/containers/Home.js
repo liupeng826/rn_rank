@@ -18,6 +18,7 @@ import ScrollableTabView  from 'react-native-scrollable-tab-view';
 import ArticleList from './ArticleList';
 import AboutCmp from './AboutCmp';
 import BeautyCmp from './BeautyCmp';
+
 class Home extends React.Component {
 
   constructor(props) {
